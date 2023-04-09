@@ -8,6 +8,8 @@
 */
 
 import React from "react";
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
 
 /*
     Main App Component
@@ -18,9 +20,11 @@ import React from "react";
 */
 const App = () =>{
     return (
-        <h1>
-            Nothing here yet lol.
-        </h1>
+        <>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </>
     )
 }
 
