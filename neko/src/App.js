@@ -10,19 +10,24 @@
 import React from "react";
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
+import Test from './pages/Test';
+import NavBar from './NavBar';
 
 /*
-    Main App Component
+    Main app Component
 
     Current Sub Components:
         None
 
 */
-const App = () =>{
+
+const App = () => {
     return (
         <>
+            <NavBar />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/test" element={<Test />} />
             </Routes>
         </>
     )
