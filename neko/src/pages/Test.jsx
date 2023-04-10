@@ -3,7 +3,7 @@ import React from 'react'
 const Test= () => {
    return (
     <>
-        <p>put test shit here</p> 
+        <h1>put test shit here</h1> 
     </>
    ) 
 }
