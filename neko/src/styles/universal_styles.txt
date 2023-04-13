@@ -1,0 +1,8 @@
+Reference txt for font imports and colors
+Not actually functional just for convenience
+
+Pink soft color pallete
+FFF3E2
+FFE5CA
+FA9884
+E74646

@@ -11,6 +11,7 @@ import React from "react";
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Test from './pages/Test';
+import About from './pages/About';
 import NavBar from './NavBar';
 
 /*
@@ -28,6 +29,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/test" element={<Test />} />
+                <Route path="/About" element={<About />} />
             </Routes>
         </>
     )
