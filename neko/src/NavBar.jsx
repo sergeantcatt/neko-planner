@@ -5,7 +5,7 @@ import './styles/NavBar.css';
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav id = "nav">
             <ul>
                 <li>
              <NavLink to="/">home</NavLink>

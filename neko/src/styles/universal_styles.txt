@@ -6,3 +6,8 @@ FFF3E2
 FFE5CA
 FA9884
 E74646
+
+GENERAL FONTS 
+notosans japanese - @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+                    font-family: 'Noto Sans JP', sans-serif;
+
